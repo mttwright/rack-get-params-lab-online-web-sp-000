@@ -37,7 +37,6 @@ class Application
     resp.finish
   end
   
-  def add_item_to_cart
 
   def handle_search(search_term)
     if @@items.include?(search_term)
